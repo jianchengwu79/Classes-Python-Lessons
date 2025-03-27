@@ -30,7 +30,8 @@ cars_data = [car.to_dict() for car in cars]
 # Save to a JSON file
 with open("cars.json", "w") as file:
     json.dump(cars_data, file, indent=4) """
-new_car = Car("Chevrolet", "Malibu", 2024, "malibu_image.jpg")
+new_car = Car("Chevrolet", "Malibu", 2024, "malibu_image.jpg")                          
+    
 # Append new car
 cars_data.append(new_car.to_dict())
 
